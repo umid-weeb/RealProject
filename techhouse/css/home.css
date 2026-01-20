@@ -397,6 +397,15 @@ body {
   color: #fff;
 }
 
+.hero-carousel {
+  display: none;
+  width: 100%;
+}
+
+.hero-carousel-link {
+  display: block;
+}
+
 .hero-text h1 {
   font-size: 42px;
   line-height: 1.2;
