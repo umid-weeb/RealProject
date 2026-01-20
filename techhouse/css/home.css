@@ -58,6 +58,7 @@ body {
   z-index: 1000;
   background: #fff;
   transition: box-shadow 0.3s ease;
+  padding: 10px 0;
 }
 
 .main-header.fixed {
@@ -83,7 +84,7 @@ body {
 
 .search-box {
   display: flex;
-  border: 1px solid #ddd;
+  border: 0.5px solid  #ff6a00;
   width: 520px;
   height: 44px;
   border-radius: 10px;
@@ -98,11 +99,12 @@ body {
 }
 
 .search-box input {
-  border-radius: 10px;
+  border-top-right-radius: 0px;
   border: none;
   flex: 1;
   padding: 0 15px;
   outline: none;
+  
 }
 .search-box button {
   background: #ff6a00;
@@ -156,8 +158,8 @@ body {
 
 .nav-inner {
   display: flex;
-  gap: 25px;
-  padding: 14px 0;
+  gap: 50px;
+  padding: 20px;
 }
 
 .nav-inner a {
