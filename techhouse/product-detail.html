@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="uz">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Mahsulot tafsiloti | Tech House</title>
+  <link rel="stylesheet" href="css/home.css">
+  <link rel="stylesheet" href="css/products.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body data-page="products">
+
+  
+  <div class="mobile-header mobile-header-simple">
+    <div class="mobile-header-row1">
+      <a href="products.html" class="mobile-back-btn" aria-label="Orqaga">
+        <i class="fa-solid fa-arrow-left"></i>
+      </a>
+      <h1 class="mobile-page-title" id="mobile-product-title">Mahsulot</h1>
+      <div class="mobile-icons-mini">
+        <a href="cart.html" class="mobile-icon-btn-small" aria-label="Savatcha">
+          <i class="fa-solid fa-cart-shopping"></i>
+          <span class="icon-badge-small" id="mobile-cart-count">0</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  
+  <div class="drawer-overlay" id="drawer-overlay"></div>
+
+  
+  <div class="site-header">
+    <div class="top-bar">
+      <div class="container top-bar-inner">
+        <p>299$ dan yuqori buyurtmalar uchun bepul yetkazib berish | Kengaytirilgan kafolat mavjud</p>
+        <div class="top-right">
+          <span>EN</span>
+          <span>USD</span>
+        </div>
+      </div>
+    </div>
+
+    <header class="main-header">
+      <div class="container header-inner">
+        <div class="logo"><a href="index.html">TECH HOUSE</a></div>
+
+        <div class="search-box">
+          <select>
+            <option>Barcha kategoriyalar</option>
+          </select>
+          <input type="search" id="header-search" placeholder="Mahsulot qidirish...">
+          <button id="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+
+        <div class="header-actions">
+          <div class="phone">
+            <small>Biz bilan bog'lanish:</small>
+            <strong>+998 90 791 36 33</strong>
+          </div>
+
+          <div class="icons">
+            <a href="auth/login.html" data-action="profile" id="nav-profile">
+              <i class="fa-solid fa-user"></i>
+            </a>
+            <a href="wishlist.html" class="icon-link">
+              <i class="fa-solid fa-heart"></i>
+              <span id="wishlist-count" class="badge">0</span>
+            </a>
+            <a href="cart.html" class="icon-link">
+              <i class="fa-solid fa-cart-shopping"></i>
+              <span id="cart-count" class="badge badge-cart">0</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <nav class="nav-bar">
+      <div class="container nav-inner">
+        <a href="index.html">Uy</a>
+        <a href="products.html">Mahsulotlar</a>
+        <a href="index.html#membership">A'zolik</a>
+        <a href="contact.html">Bog'lanish</a>
+        <a href="wishlist.html">Sevimlilar</a>
+      </div>
+    </nav>
+  </div>
+
+  <main class="product-detail-container container">
+    <div class="product-image">
+      <img id="product-main-image" src="assets/images/placeholder.jpg" alt="Mahsulot rasmi">
+    </div>
+    <div class="product-info" id="product-info">
+      <div class="breadcrumb">
+        <a href="index.html">Bosh sahifa</a>
+        <span>/</span>
+        <a href="products.html">Mahsulotlar</a>
+        <span>/</span>
+        <span id="product-breadcrumb">Mahsulot</span>
+      </div>
+      <p class="product-category" id="product-category"></p>
+      <h1 class="product-title" id="product-title">Yuklanmoqda...</h1>
+      <div class="product-rating" id="product-rating"></div>
+      <div class="product-price" id="product-price"></div>
+      <p class="product-description" id="product-description"></p>
+      <div class="product-stock" id="product-stock"></div>
+      <div class="product-actions" id="product-actions"></div>
+    </div>
+  </main>
+
+  <section class="related-products container">
+    <h2 class="section-title">O'xshash mahsulotlar</h2>
+    <div class="related-grid" id="related-grid"></div>
+  </section>
+
+  
+  <div class="mobile-product-bar show-mobile" id="mobile-product-bar">
+    <div class="mobile-product-price" id="mobile-product-price">$0.00</div>
+    <div class="mobile-product-actions">
+      <button class="mobile-wishlist-btn" id="mobile-wishlist-toggle" aria-label="Sevimlilar">
+        <i class="fa-regular fa-heart"></i>
+      </button>
+      <button class="mobile-add-cart-btn" id="mobile-add-cart">
+        <i class="fa-solid fa-cart-shopping"></i> Savatchaga
+      </button>
+    </div>
+  </div>
+
+  <footer class="main-footer">
+    <div class="footer-container container">
+      <div class="footer-col brand">
+        <div class="footer-logo"><a href="index.html">TECH HOUSE</a></div>
+        <p>Sifatli maishiy texnika uchun ishonchli hamkoringiz.</p>
+      </div>
+      <div class="footer-col">
+        <h4>ALOQA</h4>
+        <p>Andijon viloyati, Bo'ston MFY</p>
+        <p>info@techhouse.uz</p>
+        <p>+998 90 791 36 33</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© TechHouse 2025. Barcha huquqlar himoyalangan.</p>
+    </div>
+  </footer>
+
+  
+  <nav class="bottom-nav" aria-label="Tez navigatsiya">
+    <a href="index.html" class="bottom-nav-item">
+      <i class="fa-solid fa-home"></i>
+      <span>Bosh</span>
+    </a>
+    <a href="products.html" class="bottom-nav-item active">
+      <i class="fa-solid fa-th-large"></i>
+      <span>Katalog</span>
+    </a>
+    <a href="cart.html" class="bottom-nav-item">
+      <i class="fa-solid fa-cart-shopping"></i>
+      <span class="nav-badge" id="bottom-cart-count">0</span>
+      <span>Savat</span>
+    </a>
+    <a href="wishlist.html" class="bottom-nav-item wishlist">
+      <i class="fa-solid fa-heart"></i>
+      <span class="nav-badge" id="bottom-wishlist-count">0</span>
+      <span>Sevimli</span>
+    </a>
+    <a href="profile.html" class="bottom-nav-item" data-action="profile">
+      <i class="fa-solid fa-user"></i>
+      <span>Profil</span>
+    </a>
+  </nav>
+
+  <script src="js/data.js"></script>
+  <script src="js/store.js"></script>
+  <script src="js/ui.js"></script>
+  <script src="js/nav.js"></script>
+  <script src="js/product.js"></script>
+</body>
+
+</html>
